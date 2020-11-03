@@ -193,3 +193,8 @@ img {
 .show {
     left: 0;
 }
+
+/* ACTIVE MENU */
+.active {
+    color: var(--text-color);
+}
