@@ -189,4 +189,7 @@ img {
     cursor: pointer;
 }
 
-
+/* SHOW MENU */
+.show {
+    left: 0;
+}
