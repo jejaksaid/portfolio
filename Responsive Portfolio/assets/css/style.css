@@ -198,3 +198,39 @@ img {
 .active {
     color: var(--text-color);
 }
+
+/* HOME */
+.home__container {
+    height: calc(100vh - var(--header-height));
+    align-items: center;
+}
+
+.home__data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: max-content;
+    text-align: center;
+}
+
+.home__img {
+    padding-top: 1.3rem;
+    padding-left: .8rem;
+    width: 160px;
+    height: 160px;
+    background-color: var(--first-color);
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: var(--mb-2);
+}
+/* BUTTONS */
+
+/* ABOUT */
+
+/* SKILLS */
+
+/* EDUCATION */
+
+/* SERVICES */
+
+/* PROJECT IN MIND */
