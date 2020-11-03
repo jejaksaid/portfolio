@@ -612,7 +612,7 @@ img {
 }
 /* FOOTER */
 .footer{
-    background-color: var(--first-color-darken);
+    background-color: var(--first-color);
     color: var(--first-color-lighten);
     text-align: center;
 }
@@ -628,12 +628,13 @@ img {
 
 .footer__social {
     margin-bottom: 3rem;
+    color: white;
 }
 
 .footer__link {
     display: inline-flex;
     background-color: var(--first-color);
-    color: var(--first-color-lighten);
+    color: var(--first-color-darken);
     font-size: 1.1rem;
     border-radius: 50%;
     padding: .40rem;
@@ -641,7 +642,15 @@ img {
     transition: .3s;
 }
 
+.footer__link:hover {
+    background-color: var(--first-color-lighten);
+    color: white;
+}
 
+.footer__copy {
+    font-size: var(--smaller-font-size);
+    color: white;
+}
 
 
 
